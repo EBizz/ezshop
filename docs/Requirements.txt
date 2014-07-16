@@ -1,0 +1,68 @@
+Home Page
+
+Home page is shown by default.
+User credentials are taken from cookie if exists.
+Home page displays the items by its category.
+Home page contains 
+	Top Bar
+		Logo.
+		Store selection/change.
+		Search box.
+		Register/Login or User profile setting.
+		Contact Us.
+		FAQ/Help.
+	Top navigation 
+		Section 1
+			Main Categories till end and more button at the end.
+
+		Section 2
+			Popular.
+			Reciep.
+			Lists.
+	Content Area 
+		Items available in the store seperated by 1st Sub category, User scrolls down to see more. 
+		If the items are not available in the store suggestions will be made. 
+		Frequently used/bought items at the top 
+			Logic based on recent history, ethnic,gender, area, food habit etc..
+		If user clicks on view more, provide filter option based on brand, store, offer, price range etc.. 
+		this needs tobe decided later. Since it is grocery items like price range doesnt matter.
+		For each item Image, Name, MRP, rate, default quantity is shown, user can change the quantity.
+		
+
+Actions 
+	User adds the item to basket, default quantity is taken.
+	Pack It button is shown in the Basket. 
+	Once user click pack-it button, option like delivery and take away is shown.
+	If take away, user will only be asked mobile number and preffered time. and order is sent to the shop. (how to avoid proxy orders)
+	If delivery user address, phone number and preffered time for delivery is shown.
+	For now only cash on delivery is supported. 
+	Once the order is complete, this order is stored under user profile. 
+	A message and mail is sent to user and shop.
+	Once complete transaction is complete feed back is taken from the user.
+
+
+
+Registration
+
+Possible flows
+User clicks on register link
+User tries to "packit" the item without login.
+
+Actions
+User enters First Name, Last Name, Email id password, confirm password and ZIP code and clicks on register.
+User will be provided an auto complete option to select the ZIP code.
+On click of register client validation kicks of and on success System takes the details and persists.
+User clicks on reset and fields get reset.
+
+Alternate flows
+User cancells the registraton - Home page is shown.
+
+
+Login
+
+Possible flows
+User clicks on register link
+User tries to "packit" the item without login.
+
+Alternate flows
+user 
